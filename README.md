@@ -8,50 +8,40 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** pipeline designed to prov
 
 ## Key Features
 
-* 
 **Automated Data Ingestion**: Loads and processes PDF files using `DirectoryLoader` and `PyPDFLoader`.
 
 
-* 
 **Semantic Chunking**: Implements `RecursiveCharacterTextSplitter` to create manageable text segments while preserving context.
 
 
-* 
 **Vector Storage**: Utilizes **FAISS** for efficient similarity search and local embedding storage.
 
 
-* 
 **Mistral-7B Integration**: Connects with **Hugging Face** endpoints to use Mistral-7B for inference.
 
 
-* 
 **Streamlit UI**: Provides a clean, interactive chat interface for real-time user engagement.
 
 
 
 ## Technical Stack
 
-* 
+ 
 **Language**: Python 
 
-
-* 
+ 
 **Framework**: LangChain 
 
-
-* 
+ 
 **LLM**: Mistral-7B-Instruct-v0.3 
 
-
-* 
+ 
 **Embeddings**: sentence-transformers/all-MiniLM-L6-v2 
 
-
-* 
+ 
 **Vector Database**: FAISS (Facebook AI Similarity Search) 
 
 
-* 
 **Interface**: Streamlit 
 
 
@@ -107,4 +97,4 @@ streamlit run medibot.py
 ```
 ---
 
-**Would you like me to help you create a "Performance & Evaluation" section for this README to showcase your model's 
+
