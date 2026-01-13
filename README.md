@@ -99,7 +99,7 @@ streamlit run medibot.py
 
 ## ARCHITECTURE
 
-![RAG Architecture Diagram](assets/rag_architecture.jpg)
+![RAG Architecture Diagram](assets/RAG_Architecture.jpeg)
 This diagram illustrates a three-phase architecture for a **Retrieval-Augmented Generation (RAG)** chatbot system. It outlines how raw documents are processed into a searchable format and then integrated with a Large Language Model (LLM) to provide answers.
 
 ### **Phase 1: Knowledge Base Creation**
